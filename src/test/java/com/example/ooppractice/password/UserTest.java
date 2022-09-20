@@ -1,4 +1,4 @@
-package com.example.ooppractice;
+package com.example.ooppractice.password;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
