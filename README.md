@@ -1,2 +1,0 @@
-# oop-pracitce
-oop-pracitce
