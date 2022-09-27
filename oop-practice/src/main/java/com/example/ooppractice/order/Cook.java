@@ -17,7 +17,7 @@ public class Cook {
         this.price=menuItem.getPrice();
     }
 
-    // 객체끼리 비교할떄는 equals, hashcode 필요
+    // 객체끼리 비교할때는 equals, hashcode 필요
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -25,6 +25,7 @@ public class Cook {
         Cook cook = (Cook) o;
         return price == cook.price && Objects.equals(name, cook.name);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, price);
