@@ -1,4 +1,4 @@
-package com.example.waspractice.calculator;
+package com.example.waspractice.calculator.domain;
 
 public class PositiveNumber {
     private final int value;

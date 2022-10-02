@@ -1,6 +1,9 @@
-package com.example.waspractice.calculator;
+package com.example.waspractice.calculator.tobe;
 
-public class AdditionOperator implements NewArithmeticOperator{
+import com.example.waspractice.calculator.domain.NewArithmeticOperator;
+import com.example.waspractice.calculator.domain.PositiveNumber;
+
+public class AdditionOperator implements NewArithmeticOperator {
     @Override
     public boolean supports(String operator) {
         return "+".equals(operator);

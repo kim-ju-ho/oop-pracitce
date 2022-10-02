@@ -1,4 +1,5 @@
-package com.example.waspractice.calculator;
+package com.example.waspractice.calculator.domain;
+
 
 public interface NewArithmeticOperator {
     boolean supports(String operator);
